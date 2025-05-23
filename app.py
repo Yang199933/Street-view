@@ -104,5 +104,7 @@ app.layout = html.Div([
     ),
 ])
 
+server = app.server
+
 if __name__ == '__main__':
-    app.run(debug=True, port=8051, host='localhost')
+    app.run_server(debug=True, port='8051')
